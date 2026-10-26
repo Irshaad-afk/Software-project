@@ -1,0 +1,42 @@
+POWERGUARD — MULTI-COMMIT GITHUB PUSH (WINDOWS)
+================================================
+Target GitHub repository: https://github.com/Irshaad-afk/Software-project
+Prepared branch: main
+Existing upstream base commit: 5aa7028e16470c78dc1c9b2172cdb865c264299f
+
+The files in this ZIP include the hidden .git folder with the actual,
+separate Git commits. Do not delete .git or upload this ZIP as a file to GitHub.
+
+METHOD A: GITHUB DESKTOP (RECOMMENDED)
+1. Extract the ZIP fully to a new folder on your Windows PC.
+2. Install GitHub Desktop (https://desktop.github.com/) and sign into the
+   account Irshaad-afk (or another account with WRITE access to the repo).
+3. In GitHub Desktop, File > Add local repository, and choose the extracted
+   PowerGuard-GitHub-Ready folder. If it says 'not a Git repository',
+   confirm the hidden .git folder was extracted correctly.
+4. Open History to see many distinct PowerGuard commits. The initial commit
+   is also included and matches the target repository exactly.
+5. Select Repository > Push, or click 'Push origin'. DO NOT click Publish
+   repository, do not create a second repository, and do not force push.
+6. Visit https://github.com/Irshaad-afk/Software-project/commits/main to
+   confirm the history arrived successfully.
+
+METHOD B: GIT COMMAND LINE (FROM EXTRACTED FOLDER)
+    git status
+    git log --oneline -10
+    git remote -v
+    git push origin main
+
+IMPORTANT: The ChatGPT-connected GitHub account 'aswinudhayasivam-create'
+currently has read-only access to Irshaad-afk/Software-project, so these
+commits were PREPARED LOCALLY but have NOT yet been pushed online.
+
+If you want me to do the push directly through ChatGPT, connect GitHub as
+Irshaad-afk or give the currently connected GitHub account write/collaborator
+access. No other file or plugin is required.
+
+If your target repo has received other commits after the base above, do not
+force-push; pull/fetch the new changes and integrate them first.
+
+There are no tokens, database secrets, service-role keys or passwords in this
+package; src/config.js only contains the Supabase public/publishable key.
